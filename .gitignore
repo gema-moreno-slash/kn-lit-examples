@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*.log
+*.bak
+
+# Webpack cache
+.cache/
+.webpack/
+
+# Env variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports (si usas testing)
+coverage/
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: npm package logs
+.npm/
