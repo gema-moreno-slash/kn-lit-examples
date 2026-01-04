@@ -1,1 +1,17 @@
 @import "../../node_modules/bulma/css/bulma.min.css";
+
+app-component .mainCont {
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+app-component .mainCont main {
+  flex-grow: 1;
+  padding: .5rem .75rem;
+}
+
+.section header{
+  margin-bottom: 2rem;
+}
