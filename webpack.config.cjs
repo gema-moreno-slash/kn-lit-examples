@@ -7,16 +7,19 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    module: true
+    // module: true
   },
+  /*
   experiments: {
     outputModule: true
   },
+  */
   devServer: {
     static: './dist',
-    port: 3010,
+    port: 3013,
     open: true,
-    hot: true
+    hot: true,
+    liveReload: true,
   },
   plugins: [
     new HtmlWebpackPlugin({

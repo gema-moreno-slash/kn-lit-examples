@@ -15,3 +15,7 @@ app-component .mainCont main {
 .section header{
   margin-bottom: 2rem;
 }
+
+.fixList {
+  margin-left: 2rem;
+}
